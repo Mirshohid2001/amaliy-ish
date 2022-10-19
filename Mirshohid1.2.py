@@ -1,0 +1,10 @@
+a=int(input("a ni kiriting: "))
+b=int(input("b ni kiriting: "))
+s=int(input("s ni kiriting: "))
+son=a
+a=s
+s=b
+b=son
+print(f'a={a}')
+print(f'b={b}')
+print(f's={s}')
